@@ -5,7 +5,7 @@ import com.example.smsApp.utils.SMSUtility;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by tiwarim on 9/13/2018.
+ * Created by Manish Tiwari on 9/13/2018.
  */
 @Service
 public class SmsService {

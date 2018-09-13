@@ -21,6 +21,7 @@ public class SmsController {
     SmsService smsService;
 
     @PutMapping(value = "/sendSMS")
+    @ResponseStatus(HttpStatus.OK)
     public void sendSMS(@RequestBody SMS sms) {
         smsService.sendSMS(sms);
     }
