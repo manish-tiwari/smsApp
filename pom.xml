@@ -35,11 +35,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<dependency>
+		<!--comment as it is deprecated now, including the artifacts in lib instead-->
+		<!--<dependency>
 			<groupId>com.mscience</groupId>
 			<artifactId>MScience.sms</artifactId>
 			<version>1.2</version>
-		</dependency>
+		</dependency>-->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
